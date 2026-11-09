@@ -14,8 +14,8 @@ let playing = false, activePacking = LEVEL.packings[0];
 function format(value) { return Number(value.toFixed(12)).toString(); }
 
 function sourceLink(parent, source) {
-  const a = document.createElement("a");
-  a.href = source.url;
+  const a = document.createElement(source.url ? "a" : "span");
+  if (source.url) a.href = source.url;
   a.textContent = source.label;
   parent.replaceChildren(a);
 }

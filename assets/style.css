@@ -95,7 +95,7 @@ dialog::backdrop { background: #172c2566; }
   .chooser { flex: 1; display: block; font-size: 11px; }
   .chooser select { display: block; width: 100%; margin-top: 4px; }
   .mode-switch button { padding: 6px 10px; }
-  .metrics { gap: 8px; font-size: 10px; }
+  .metrics { flex-wrap: wrap; gap: 4px 8px; font-size: 10px; }
   #game-controls { display: grid; gap: 6px; }
   .game-row { width: 100%; }
   .game-row input[type="number"] { width: 64px; }
@@ -107,6 +107,7 @@ dialog::backdrop { background: #172c2566; }
   footer { gap: 0; justify-content: space-between; }
   footer button { font-size: 12px; padding: 7px 9px; }
   .tile { padding: 22px 16px; }
+  .tile span { font-size: 13px; }
 }
 @media (max-height: 500px) {
   main { padding: 6px 12px; gap: 4px; }

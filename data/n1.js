@@ -74,8 +74,7 @@ window.SQUARES_LEVEL = {
       ],
       "transfer": "Learn to distinguish moving a packing from reducing its bounding span.",
       "source": {
-        "label": "Local practice seed, inherited editor controls",
-        "url": "../../README.md"
+        "label": "Local practice seed, inherited editor controls"
       },
       "L": 1.3065629648763766,
       "L_text": "1.30656296487637651984270309692211783564733397455455",

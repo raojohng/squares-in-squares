@@ -164,8 +164,7 @@ window.SQUARES_LEVEL = {
       ],
       "transfer": "Use temporary conflicts to explore changes of contact pattern in larger packings.",
       "source": {
-        "label": "Original Squares in Squares practice seed",
-        "url": "../../README.md"
+        "label": "Original Squares in Squares practice seed"
       },
       "L": 2.2232727449949365,
       "L_text": "2.22327274499493645617620784185216366327144140759702",

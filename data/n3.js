@@ -95,8 +95,7 @@ window.SQUARES_LEVEL = {
       ],
       "transfer": "Separate closing internal gaps from removing empty margins around the packing.",
       "source": {
-        "label": "Local grid practice seed",
-        "url": "../../README.md"
+        "label": "Local grid practice seed"
       },
       "L": 2.25,
       "L_text": "2.25000000000000000000000000000000000000000000000000",

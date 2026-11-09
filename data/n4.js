@@ -15,7 +15,7 @@ window.SQUARES_LEVEL = {
     "url": "https://erich-friedman.github.io/papers/squares.pdf#page=2"
   },
   "pathways": [
-    "Next: n = 5, the first case where an optimal packing requires tilting a square. Its proven side is L = 2 + 1/\u221a2 \u2248 2.707106781187; G\u00f6bel (1979), as surveyed by Friedman (2009). This page does not build that packing.",
+    "Next: n = 5, the first case where an optimal packing requires tilting a square. Its proven side is L = 2 + 1/\u221a2 \u2248 2.707106781187; G\u00f6bel (1979), as surveyed by Friedman (2009). Use \u2192 to explore its four corners and central diamond.",
     "Why a tilt is needed: if L < 3, the centres of aligned unit squares lie in a square of side L \u2212 1 < 2. Divide this centre region into four equal boxes. Two centres in one box would differ by less than 1 in both coordinates, causing overlap. Thus at most four aligned pieces fit; five need L \u2265 3.",
     "For any complete k \u00d7 k grid, n = k\u00b2 and L = k attain the area bound and give contribution 0. Between these square counts, compare the grid bound with rotated constructions."
   ],
@@ -108,8 +108,7 @@ window.SQUARES_LEVEL = {
       ],
       "transfer": "A complete grid has no spare area: internal gaps must disappear to reach the area bound.",
       "source": {
-        "label": "Local grid practice seed",
-        "url": "../../README.md"
+        "label": "Local grid practice seed"
       },
       "L": 2.25,
       "L_text": "2.25000000000000000000000000000000000000000000000000",
