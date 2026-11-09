@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Squares in Squares</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="data/index.js" defer></script>
+  <script src="assets/home.js" defer></script>
+  <script src="assets/overlays.js" defer></script>
+</head>
+<body>
+  <main class="home">
+    <header><h1>Squares in Squares</h1></header>
+    <nav id="levels" class="tile-grid" aria-label="Choose n"></nav>
+    <footer><button type="button" data-panel="help-panel">Help</button><button type="button" data-panel="sources-panel">Sources</button></footer>
+    <dialog id="info-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-header"><h2 id="dialog-title"></h2><button id="close-dialog" type="button" aria-label="Close information">✕</button></div>
+      <div class="dialog-body">
+        <section id="help-panel" data-title="Help" hidden>
+          <p>Pack n unit squares into the smallest square. Choose an n to explore constructions or try Game mode.</p>
+          <p>L is the larger horizontal or vertical span of the packing. Touching is legal; overlapping interiors are not. Empty board space and translation do not change L.</p>
+          <p>Each contribution is L / √n − 1; the competition score sums these for n = 1…1000. Lower is better. Proven cases invite you to match the bound.</p>
+        </section>
+        <section id="sources-panel" data-title="Sources" hidden>
+          <p>Public-best snapshot from <a href="https://www.kaggle.com/code/penguin069/squares-capacity-discoveries-certified-union">penguin069</a>, 2026-11-09. These are dated CSV imports, not live leaderboard results.</p>
+          <p>Proofs and construction sources are available on each page. Every saved packing passes the official geometry gate; browser edits are previews until certified.</p>
+        </section>
+      </div>
+    </dialog>
+    <noscript><p><a href="n/1/index.html">n = 1</a> · <a href="n/2/index.html">n = 2</a> · <a href="n/3/index.html">n = 3</a> · <a href="n/4/index.html">n = 4</a>. Enable JavaScript for the interactive pages.</p></noscript>
+  </main>
+</body>
+</html>
